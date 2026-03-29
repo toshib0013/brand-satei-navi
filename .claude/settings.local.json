@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv venv)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/python -m src.main --keyword \"Nintendo Switch\" --min-profit 10)",
+      "Bash(venv/Scripts/python -c \"from flask import Flask; print\\(''Flask OK''\\)\")",
+      "Bash(venv/Scripts/python -c \":*)",
+      "Bash(venv/Scripts/python -c \"from src.main import load_config; load_config\\(\\); print\\(''config OK''\\)\")",
+      "Bash(venv/Scripts/python -c \"from src.presentation.web_app import app; print\\(''web_app OK''\\)\")",
+      "Bash(venv/Scripts/python -m src.presentation.web_app)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5000/)",
+      "Bash(curl -s \"https://auctions.yahoo.co.jp/robots.txt\")",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(taskkill:*)",
+      "Bash(venv/Scripts/python -m src.main --keyword \"Nintendo Switch\")",
+      "Bash(venv/Scripts/python -m src.main --keyword \"Nintendo Switch\" --min-profit 5)",
+      "Bash(tasklist:*)"
+    ]
+  }
+}
