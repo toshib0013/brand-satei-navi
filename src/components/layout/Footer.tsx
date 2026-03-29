@@ -19,18 +19,19 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/" className="hover:text-white transition-colors">サービス案内</Link></li>
               <li><Link href="/blog" className="hover:text-white transition-colors">お役立ちコラム</Link></li>
+              <li><Link href="/services" className="hover:text-white transition-colors">買取業者一覧</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">お問い合わせ</Link></li>
               <li><Link href="/privacy" className="hover:text-white transition-colors">プライバシーポリシー</Link></li>
               <li><Link href="/tokushoho" className="hover:text-white transition-colors">特定商取引法に基づく表記</Link></li>
             </ul>
           </div>
           <div>
-            <p className="text-white font-semibold mb-3">お問い合わせ</p>
+            <p className="text-white font-semibold mb-3">無料査定を依頼する</p>
             <Link
-              href="https://line.me"
-              className="inline-block bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors"
+              href="/services"
+              className="inline-block bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors"
             >
-              LINEで無料査定
+              買取業者一覧を見る
             </Link>
           </div>
         </div>

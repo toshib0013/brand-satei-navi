@@ -54,16 +54,14 @@ export default async function BlogPage() {
       {/* CTA */}
       <div className="bg-amber-50 border-t border-amber-100">
         <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-          <p className="text-gray-700 font-semibold text-lg mb-2">査定のご相談はLINEで無料受付中</p>
-          <p className="text-gray-500 text-sm mb-6">写真を送るだけ。複数業者への交渉を代行します。</p>
-          <a
-            href="https://line.me"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-full transition-colors"
+          <p className="text-gray-700 font-semibold text-lg mb-2">複数の業者に査定を依頼して最高額を目指そう</p>
+          <p className="text-gray-500 text-sm mb-6">査定・キャンセルはすべて無料。売却の義務はありません。</p>
+          <Link
+            href="/services"
+            className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-full transition-colors"
           >
-            LINEで無料査定を相談する
-          </a>
+            おすすめ買取業者を見る
+          </Link>
         </div>
       </div>
     </div>
