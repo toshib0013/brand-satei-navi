@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+
+export const revalidate = 60;
 import Link from 'next/link';
 import { Calendar, Tag, ChevronLeft } from 'lucide-react';
 import { mockBlogs } from '@/lib/mockBlogs';
