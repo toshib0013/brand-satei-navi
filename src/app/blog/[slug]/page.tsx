@@ -95,16 +95,14 @@ export default async function BlogDetailPage({ params }: Props) {
         <div className="mt-10 bg-amber-50 border border-amber-200 rounded-2xl p-8 text-center">
           <p className="text-gray-800 font-bold text-lg mb-2">あなたのブランド品、いくらで売れる？</p>
           <p className="text-gray-500 text-sm mb-5">
-            複数業者への交渉を代行。LINEで写真を送るだけで最高額をご案内します。
+            複数の買取業者に無料査定を依頼して、最高額を引き出しましょう。
           </p>
-          <a
-            href="https://line.me"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-full transition-colors"
+          <Link
+            href="/services"
+            className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-full transition-colors"
           >
-            LINEで無料査定を相談する
-          </a>
+            おすすめ買取業者を見る
+          </Link>
           <p className="text-xs text-gray-400 mt-3">完全無料・売却の義務なし</p>
         </div>
 
