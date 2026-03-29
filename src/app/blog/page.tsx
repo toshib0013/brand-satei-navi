@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import ArticleCard from '@/components/blog/ArticleCard';
 import { mockBlogs } from '@/lib/mockBlogs';
 
+export const revalidate = 60;
+
 export const metadata: Metadata = {
   title: 'お役立ちコラム | ブランド査定ナビ',
   description: 'ブランド品を高く売るためのコツや査定相場情報を発信しています。',
