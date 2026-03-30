@@ -95,7 +95,7 @@ export default async function BlogDetailPage({ params }: Props) {
         <div className="mt-10 bg-amber-50 border border-amber-200 rounded-2xl p-8 text-center">
           <p className="text-gray-800 font-bold text-lg mb-2">あなたのブランド品、いくらで売れる？</p>
           <p className="text-gray-500 text-sm mb-5">
-            複数の買取業者に無料査定を依頼して、最高額を引き出しましょう。
+            複数の業者に無料査定を依頼して、最高額を比較しましょう。
           </p>
           <Link
             href="/services"

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import ArticleCard from '@/components/blog/ArticleCard';
 import { mockBlogs } from '@/lib/mockBlogs';
 
@@ -54,7 +55,7 @@ export default async function BlogPage() {
       {/* CTA */}
       <div className="bg-amber-50 border-t border-amber-100">
         <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-          <p className="text-gray-700 font-semibold text-lg mb-2">複数の業者に査定を依頼して最高額を目指そう</p>
+          <p className="text-gray-700 font-semibold text-lg mb-2">複数の業者に査定を依頼して最高額を目指しましょう</p>
           <p className="text-gray-500 text-sm mb-6">査定・キャンセルはすべて無料。売却の義務はありません。</p>
           <Link
             href="/services"
