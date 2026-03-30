@@ -21,12 +21,10 @@ export default function PrivacyPage() {
 
             <section>
               <h2 className="text-base font-bold text-gray-800 mb-3">2. 収集する情報</h2>
-              <p>当サービスでは、以下の情報を収集することがあります。</p>
+              <p>当サービスは、ユーザーから氏名・住所・メールアドレスなどの個人情報を直接収集しません。ただし、以下の情報が自動的に収集される場合があります。</p>
               <ul className="list-disc list-inside mt-2 space-y-1">
-                <li>お名前（ニックネーム可）</li>
-                <li>LINEアカウント情報</li>
-                <li>査定を希望するブランド品に関する情報（商品写真・状態等）</li>
-                <li>当サービス利用に関するアクセスログ・Cookie情報</li>
+                <li>アクセスログ（IPアドレス、ブラウザ情報、参照元URL等）</li>
+                <li>Cookie情報</li>
               </ul>
             </section>
 
@@ -34,45 +32,34 @@ export default function PrivacyPage() {
               <h2 className="text-base font-bold text-gray-800 mb-3">3. 情報の利用目的</h2>
               <p>収集した情報は、以下の目的で利用します。</p>
               <ul className="list-disc list-inside mt-2 space-y-1">
-                <li>査定に関するご案内・業者紹介サービスの提供</li>
-                <li>サービス改善およびお問い合わせへの対応</li>
-                <li>統計データの作成（個人を特定しない形式）</li>
+                <li>サービスの改善および利便性向上</li>
+                <li>アクセス解析による統計データの作成（個人を特定しない形式）</li>
               </ul>
             </section>
 
             <section>
               <h2 className="text-base font-bold text-gray-800 mb-3">4. 第三者への提供</h2>
-              <p>当サービスは、以下の場合を除き、ユーザーの個人情報を第三者に提供しません。</p>
-              <ul className="list-disc list-inside mt-2 space-y-1">
-                <li>ユーザーご本人の同意がある場合</li>
-                <li>法令に基づき開示が必要な場合</li>
-                <li>業者紹介のために必要な最小限の情報を提携業者に提供する場合（事前に同意を得た場合に限る）</li>
-              </ul>
+              <p>当サービスは、法令に基づく場合を除き、自動収集した情報を第三者に提供しません。なお、当サービスに掲載のリンクをクリックして外部の買取業者サイトへ移動した場合、その後の情報取り扱いは各業者のプライバシーポリシーに従います。</p>
             </section>
 
             <section>
-              <h2 className="text-base font-bold text-gray-800 mb-3">5. Cookieの使用</h2>
+              <h2 className="text-base font-bold text-gray-800 mb-3">5. アフィリエイトについて</h2>
+              <p>当サービスはアフィリエイト広告（成果報酬型広告）を利用しています。ユーザーが当サービス経由で外部の買取業者サイトを訪問・申し込みした場合、当サービスに報酬が発生することがあります。ユーザーへの追加費用は一切発生しません。</p>
+            </section>
+
+            <section>
+              <h2 className="text-base font-bold text-gray-800 mb-3">6. Cookieの使用</h2>
               <p>当サービスでは、サービス改善・利便性向上のためCookieおよびGoogle Analyticsを使用することがあります。ブラウザの設定によりCookieを無効にすることが可能ですが、一部機能が利用できなくなる場合があります。</p>
             </section>
 
             <section>
-              <h2 className="text-base font-bold text-gray-800 mb-3">6. 情報の管理</h2>
-              <p>収集した個人情報は、SSL暗号化通信により保護し、不正アクセス・紛失・漏洩等が起きないよう適切に管理します。</p>
-            </section>
-
-            <section>
-              <h2 className="text-base font-bold text-gray-800 mb-3">7. 個人情報の開示・訂正・削除</h2>
-              <p>ユーザーご本人から個人情報の開示・訂正・削除のご要望があった場合は、本人確認の上、合理的な期間内に対応いたします。ご連絡はLINE公式アカウントまでお願いします。</p>
-            </section>
-
-            <section>
-              <h2 className="text-base font-bold text-gray-800 mb-3">8. プライバシーポリシーの変更</h2>
+              <h2 className="text-base font-bold text-gray-800 mb-3">7. プライバシーポリシーの変更</h2>
               <p>当サービスは、必要に応じて本ポリシーを改定することがあります。重要な変更がある場合は、本ページにてお知らせします。</p>
             </section>
 
             <section>
-              <h2 className="text-base font-bold text-gray-800 mb-3">9. お問い合わせ</h2>
-              <p>プライバシーポリシーに関するお問い合わせは、LINE公式アカウントよりご連絡ください。</p>
+              <h2 className="text-base font-bold text-gray-800 mb-3">8. お問い合わせ</h2>
+              <p>プライバシーポリシーに関するお問い合わせは、お問い合わせいただいた場合、遅滞なく開示いたします。</p>
             </section>
 
           </div>

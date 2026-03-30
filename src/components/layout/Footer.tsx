@@ -10,36 +10,34 @@ export default function Footer() {
               ブランド<span className="text-amber-500">査定</span>ナビ
             </p>
             <p className="text-sm leading-relaxed">
-              ブランド品の最高額査定を引き出す、相見積もり・交渉参謀サービス。
-              複数業者への交渉を代行し、あなたの大切なブランド品を最高額で売れるようサポートします。
+              ブランド品の相見積もりに役立つ情報を提供する比較サイト。
+              複数の買取業者を比較して、最高額での売却をサポートします。
             </p>
           </div>
           <div>
             <p className="text-white font-semibold mb-3">コンテンツ</p>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="hover:text-white transition-colors">サービス案内</Link></li>
+              <li><Link href="/" className="hover:text-white transition-colors">トップ・業者一覧</Link></li>
               <li><Link href="/blog" className="hover:text-white transition-colors">お役立ちコラム</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">買取業者一覧</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">お問い合わせ</Link></li>
               <li><Link href="/privacy" className="hover:text-white transition-colors">プライバシーポリシー</Link></li>
               <li><Link href="/tokushoho" className="hover:text-white transition-colors">特定商取引法に基づく表記</Link></li>
             </ul>
           </div>
           <div>
-            <p className="text-white font-semibold mb-3">無料査定を依頼する</p>
-            <Link
-              href="/services"
+            <p className="text-white font-semibold mb-3">無料査定を比較する</p>
+            <a
+              href="/#companies"
               className="inline-block bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors"
             >
-              買取業者一覧を見る
-            </Link>
+              おすすめ業者を見る
+            </a>
           </div>
         </div>
         <div className="border-t border-gray-800 pt-6 text-xs text-center space-y-2">
           <p>
-            当サービスは情報提供・送客を目的としており、古物の買取・販売は行いません。
+            当サイトは情報提供を目的としており、古物の買取・販売は行いません。
           </p>
-          <p>© 2025 ブランド査定ナビ. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} ブランド査定ナビ. All rights reserved.</p>
         </div>
       </div>
     </footer>

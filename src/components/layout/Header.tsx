@@ -17,21 +17,15 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="/" className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors">
-            サービス案内
-          </Link>
           <Link href="/blog" className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors">
-            お役立ちコラム
+            相場コラム
           </Link>
-          <Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors">
-            買取業者一覧
-          </Link>
-          <Link
-            href="/services"
+          <a
+            href="/#companies"
             className="bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors"
           >
-            無料査定を依頼する
-          </Link>
+            業者を比較する
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -47,22 +41,16 @@ export default function Header() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-4">
-          <Link href="/" className="block text-gray-600 font-medium py-2" onClick={() => setIsOpen(false)}>
-            サービス案内
-          </Link>
           <Link href="/blog" className="block text-gray-600 font-medium py-2" onClick={() => setIsOpen(false)}>
-            お役立ちコラム
+            相場コラム
           </Link>
-          <Link href="/services" className="block text-gray-600 font-medium py-2" onClick={() => setIsOpen(false)}>
-            買取業者一覧
-          </Link>
-          <Link
-            href="/services"
+          <a
+            href="/#companies"
             className="block bg-amber-500 text-white text-center font-semibold px-5 py-3 rounded-full"
             onClick={() => setIsOpen(false)}
           >
-            無料査定を依頼する
-          </Link>
+            業者を比較する
+          </a>
         </div>
       )}
     </header>
